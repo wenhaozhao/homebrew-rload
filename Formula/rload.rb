@@ -1,8 +1,8 @@
 class Rload < Formula
   desc "Rust HTTP load generator with Nginx access-log and JSONL replay"
   homepage "https://wenhaozhao.github.io/rload/"
-  url "https://github.com/wenhaozhao/rload/archive/refs/tags/0.1.1.tar.gz"
-  sha256 "76f69b62ab1cd479da6f388f4a9a300b1f3a1a49f3afbf8d114f97f9de8e862f"
+  url "https://github.com/wenhaozhao/rload/archive/refs/tags/v0.1.2.tar.gz"
+  sha256 "74f6b6ba9957179612891d2ecb448f3ec2c26f8fefdd3b78ac58164b6e97889c"
   license any_of: ["MIT", "Apache-2.0"]
 
   depends_on "rust" => :build
