@@ -8,7 +8,8 @@ class Rload < Formula
   depends_on "rust" => :build
 
   def install
-    system "cargo", "install", *std_cargo_args
+    system "cargo", "build", "--release", "--locked"
+    bin.install "target/release/rload"
   end
 
   test do
