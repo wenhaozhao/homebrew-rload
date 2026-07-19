@@ -4,18 +4,18 @@ class Rload < Formula
   license any_of: ["MIT", "Apache-2.0"]
 
   on_arm do
-    url "https://github.com/wenhaozhao/rload/releases/download/v0.2.4/rload-0.2.4-aarch64-apple-darwin.tar.gz"
-    sha256 "8fa75521f7e2516af50e7f51a36edf695c7f8368907bb0a6d1ba251e9d5c7357"
+    url "https://github.com/wenhaozhao/rload/releases/download/v0.3.0-rc.1/rload-0.3.0-rc.1-aarch64-apple-darwin.tar.gz"
+    sha256 "6e91039d1aa46bed95888ad8a6f9eddd1a02fb58f7c5088ff5c6cdd7dd2b6617"
   end
 
   on_intel do
-    url "https://github.com/wenhaozhao/rload/releases/download/v0.2.4/rload-0.2.4-x86_64-apple-darwin.tar.gz"
-    sha256 "76d9067572708b19ef442b526111c569a1727907ff6a37d1d52002e70323d599"
+    url "https://github.com/wenhaozhao/rload/releases/download/v0.3.0-rc.1/rload-0.3.0-rc.1-x86_64-apple-darwin.tar.gz"
+    sha256 "cd0ad7859056f6987de2a9780caa28d026057df3fa39b6d79a0ef1b0ea2867f4"
   end
 
   on_linux do
-    url "https://github.com/wenhaozhao/rload/releases/download/v0.2.4/rload-0.2.4-x86_64-unknown-linux-gnu.tar.gz"
-    sha256 "8c88c6dca164256d1021f1306b2044aec4b45877c4f3fc4637b8fac21960e201"
+    url "https://github.com/wenhaozhao/rload/releases/download/v0.3.0-rc.1/rload-0.3.0-rc.1-x86_64-unknown-linux-gnu.tar.gz"
+    sha256 "28d650b6a8b22a58680b8bfa81ed2ab301eac93a452bd0fcf9c26f42d427a30b"
   end
 
   def install
